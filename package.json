@@ -1,0 +1,20 @@
+{
+  "name": "json-to-swiftui-renderer-types",
+  "version": "0.1.0",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "typescript": "tsc --noEmit --project tsconfig.json",
+    "build": "tsc --project tsconfig.json"
+  },
+  "keywords": [],
+  "repository": "https://github.com/dominicstop/json-to-swiftui-renderer",
+  "bugs": {
+    "url": "https://github.com/dominicstop/json-to-swiftui-renderer/issues"
+  },
+  "author": "Dominic Go <dominic@dominicgo.dev> (https://github.com/dominicstop)",
+  "license": "MIT",
+  "homepage": "https://github.com/dominicstop/json-to-swiftui-renderer#readme",
+  "devDependencies": {
+    "typescript": "^5.4.3"
+  }
+}
