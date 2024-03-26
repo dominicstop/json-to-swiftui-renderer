@@ -11,9 +11,15 @@ let package = Package(
     ),
   ],
 
+  dependencies: [],
+
   targets: [
     .target(
-      name: "json-to-swiftui-renderer"
+      name: "json-to-swiftui-renderer",
+      path: "Sources",
+      linkerSettings: [
+				.linkedFramework("UIKit"),
+			]
     ),
   ]
 );
