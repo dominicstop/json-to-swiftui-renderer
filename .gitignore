@@ -55,6 +55,7 @@ playground.xcworkspace
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
 ExamplePods/Pods/
+
 #
 # Add this line if you want to avoid checking in source code from the Xcode workspace
 # *.xcworkspace
@@ -89,9 +90,19 @@ fastlane/test_output
 
 iOSInjectionProject/
 
-
-
+# OSX
+#
 .DS_Store
+
+# VSCode
+.vscode/
+jsconfig.json
+
+# npm / node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
 /.build
 /Packages
 /*.xcodeproj
@@ -101,4 +112,8 @@ DerivedData/
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
 ExamplePods/json-to-swiftui-renderer.xcworkspace/xcuserdata/dominicgo.xcuserdatad/UserInterfaceState.xcuserstate
-ExamplePods/json-to-swiftui-renderer.xcworkspace/xcuserdata/dominicgo.xcuserdatad/UserInterfaceState.xcuserstate
+
+
+
+
+
