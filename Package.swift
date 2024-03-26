@@ -11,8 +11,9 @@ let package = Package(
     ),
   ],
 
-targets: [
-  .target(
-    name: "json-to-swiftui-renderer"),
+  targets: [
+    .target(
+      name: "json-to-swiftui-renderer"
+    ),
   ]
-)
+);
