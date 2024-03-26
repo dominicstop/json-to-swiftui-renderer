@@ -11,11 +11,19 @@ let package = Package(
     ),
   ],
 
-  dependencies: [],
+  dependencies: [
+    .package(
+      url: "https://github.com/dominicstop/DGSwiftUtilities",
+      .upToNextMajor(from: "0.11.0")
+    ),
+  ],
 
   targets: [
     .target(
       name: "json-to-swiftui-renderer",
+      dependencies: [
+        "DGSwiftUtilities",
+      ],
       path: "Sources",
       linkerSettings: [
 				.linkedFramework("UIKit"),

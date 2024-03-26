@@ -21,4 +21,6 @@ TBA
 
   s.source_files = 'Sources/**/*'
   s.frameworks = 'UIKit'
+
+  s.dependency 'DGSwiftUtilities', '~> 0.11'
 end
