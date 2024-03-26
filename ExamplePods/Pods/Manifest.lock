@@ -1,16 +1,23 @@
 PODS:
-  - json-to-swiftui-renderer (0.1.0)
+  - DGSwiftUtilities (0.17.3)
+  - json-to-swiftui-renderer (0.1.0):
+    - DGSwiftUtilities (~> 0.11)
 
 DEPENDENCIES:
   - json-to-swiftui-renderer (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - DGSwiftUtilities
 
 EXTERNAL SOURCES:
   json-to-swiftui-renderer:
     :path: "../"
 
 SPEC CHECKSUMS:
-  json-to-swiftui-renderer: 523efbe3f04184adf04f489a4032a2fb2fb729b3
+  DGSwiftUtilities: 3f074197c5e5d02d0925d5170c9c37e446168aed
+  json-to-swiftui-renderer: 8a22c1927783e119c193b18a1185cfa4fb4cf3d0
 
-PODFILE CHECKSUM: 977a9e6baaa721bda715efb0dbe5bf7031a3a1a2
+PODFILE CHECKSUM: 30d033b29c2387571fbd813465a2c29b3734da98
 
 COCOAPODS: 1.14.2

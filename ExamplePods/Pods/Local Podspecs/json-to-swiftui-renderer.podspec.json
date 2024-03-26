@@ -1,22 +1,31 @@
 {
   "name": "json-to-swiftui-renderer",
   "version": "0.1.0",
-  "summary": "A short description of json-to-swiftui-renderer.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/dominicstop@gmail.com/json-to-swiftui-renderer",
+  "summary": "TBA",
+  "description": "TBA",
+  "homepage": "https://github.com/dominicstop/adaptive-modal",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "dominicstop@gmail.com": "18517029+dominicstop@users.noreply.github.com"
+    "Dominic Go": "dominic@dominicgo.dev"
   },
   "source": {
-    "git": "https://github.com/dominicstop@gmail.com/json-to-swiftui-renderer.git",
+    "git": "https://github.com/dominicstop/json-to-swiftui-renderer.git",
     "tag": "0.1.0"
   },
+  "social_media_url": "https://twitter.com/GoDominic",
   "platforms": {
-    "ios": "10.0"
+    "ios": "12.0"
   },
-  "source_files": "json-to-swiftui-renderer/Classes/**/*"
+  "swift_versions": "5.0",
+  "source_files": "Sources/**/*",
+  "frameworks": "UIKit",
+  "dependencies": {
+    "DGSwiftUtilities": [
+      "~> 0.11"
+    ]
+  },
+  "swift_version": "5.0"
 }

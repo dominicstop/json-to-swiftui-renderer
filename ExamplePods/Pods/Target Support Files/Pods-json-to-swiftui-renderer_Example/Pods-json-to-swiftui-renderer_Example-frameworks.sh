@@ -176,9 +176,11 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/DGSwiftUtilities/DGSwiftUtilities.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/json-to-swiftui-renderer/json_to_swiftui_renderer.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/DGSwiftUtilities/DGSwiftUtilities.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/json-to-swiftui-renderer/json_to_swiftui_renderer.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
