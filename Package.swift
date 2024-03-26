@@ -14,9 +14,5 @@ let package = Package(
 targets: [
   .target(
     name: "json-to-swiftui-renderer"),
-    .testTarget(
-      name: "json-to-swiftui-rendererTests",
-      dependencies: ["json-to-swiftui-renderer"]
-    ),
   ]
 )

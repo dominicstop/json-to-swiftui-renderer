@@ -13,7 +13,6 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		B7E34CDBADE3885FD38FE014 /* Pods_json_to_swiftui_renderer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DE188EF492913468A4C1544 /* Pods_json_to_swiftui_renderer_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		0EF90C3010D22AC216881475 /* Pods-json-to-swiftui-renderer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json-to-swiftui-renderer_Tests.release.xcconfig"; path = "Target Support Files/Pods-json-to-swiftui-renderer_Tests/Pods-json-to-swiftui-renderer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		511241F714A2FCC86433BD20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		511241F714A2FCC86433BD20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5DE188EF492913468A4C1544 /* Pods_json_to_swiftui_renderer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_json_to_swiftui_renderer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* json-to-swiftui-renderer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "json-to-swiftui-renderer_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -39,14 +38,12 @@
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* json-to-swiftui-renderer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "json-to-swiftui-renderer_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		908144F47280FDF328FE91F6 /* Pods-json-to-swiftui-renderer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json-to-swiftui-renderer_Example.debug.xcconfig"; path = "Target Support Files/Pods-json-to-swiftui-renderer_Example/Pods-json-to-swiftui-renderer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		96DD93AC7A4CBEAE0D9F10E1 /* Pods_json_to_swiftui_renderer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_json_to_swiftui_renderer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A864A8B9C40C0387706336D /* json-to-swiftui-renderer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "json-to-swiftui-renderer.podspec"; path = "../json-to-swiftui-renderer.podspec"; sourceTree = "<group>"; };
+		9A864A8B9C40C0387706336D /* json-to-swiftui-renderer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "json-to-swiftui-renderer.podspec"; path = "../json-to-swiftui-renderer.podspec"; sourceTree = "<group>"; };
 		A63E679F6062F66E6FF981C6 /* Pods-json-to-swiftui-renderer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json-to-swiftui-renderer_Example.release.xcconfig"; path = "Target Support Files/Pods-json-to-swiftui-renderer_Example/Pods-json-to-swiftui-renderer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C5690497D0C4F754BF0F946C /* Pods-json-to-swiftui-renderer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-json-to-swiftui-renderer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-json-to-swiftui-renderer_Tests/Pods-json-to-swiftui-renderer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FA24EC4162C9E1B9B05ECCA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FA24EC4162C9E1B9B05ECCA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +80,6 @@
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for json-to-swiftui-renderer */,
-				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				6B73ED10B4E720DCC19ABCB7 /* Pods */,
 				140F5DF5EB51D2FA9D09818A /* Frameworks */,
@@ -121,23 +117,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		607FACE81AFB9204008FA782 /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
-				607FACE91AFB9204008FA782 /* Supporting Files */,
-			);
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		607FACE91AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACEA1AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +135,6 @@
 				C5690497D0C4F754BF0F946C /* Pods-json-to-swiftui-renderer_Tests.debug.xcconfig */,
 				0EF90C3010D22AC216881475 /* Pods-json-to-swiftui-renderer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +205,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -340,7 +319,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
