@@ -1,0 +1,16 @@
+PODS:
+  - json-to-swiftui-renderer (0.1.0)
+
+DEPENDENCIES:
+  - json-to-swiftui-renderer (from `../`)
+
+EXTERNAL SOURCES:
+  json-to-swiftui-renderer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  json-to-swiftui-renderer: 523efbe3f04184adf04f489a4032a2fb2fb729b3
+
+PODFILE CHECKSUM: 977a9e6baaa721bda715efb0dbe5bf7031a3a1a2
+
+COCOAPODS: 1.14.2

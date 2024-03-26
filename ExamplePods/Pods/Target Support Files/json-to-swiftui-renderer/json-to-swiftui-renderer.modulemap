@@ -1,0 +1,6 @@
+framework module json_to_swiftui_renderer {
+  umbrella header "json-to-swiftui-renderer-umbrella.h"
+
+  export *
+  module * { export * }
+}

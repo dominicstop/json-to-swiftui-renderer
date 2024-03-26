@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'json-to-swiftui-renderer_Example' do
+  pod 'json-to-swiftui-renderer', :path => '../'
+
+  target 'json-to-swiftui-renderer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

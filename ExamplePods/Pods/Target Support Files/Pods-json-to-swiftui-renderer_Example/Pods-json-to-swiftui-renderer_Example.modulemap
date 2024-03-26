@@ -1,0 +1,6 @@
+framework module Pods_json_to_swiftui_renderer_Example {
+  umbrella header "Pods-json-to-swiftui-renderer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
