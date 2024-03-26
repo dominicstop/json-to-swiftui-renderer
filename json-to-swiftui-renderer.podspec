@@ -2,17 +2,23 @@
 Pod::Spec.new do |s|
   s.name             = 'json-to-swiftui-renderer'
   s.version          = '0.1.0'
+  s.summary          = 'TBA'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+TBA
+                      DESC
 
-  s.homepage         = 'https://github.com/dominicstop@gmail.com/json-to-swiftui-renderer'
+  s.homepage         = 'https://github.com/dominicstop/adaptive-modal'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'dominicstop@gmail.com' => '18517029+dominicstop@users.noreply.github.com' }
-  s.source           = { :git => 'https://github.com/dominicstop@gmail.com/json-to-swiftui-renderer.git', :tag => s.version.to_s }
+  s.author           = { 'Dominic Go' => 'dominic@dominicgo.dev' }
+  s.source           = { :git => 'https://github.com/dominicstop/json-to-swiftui-renderer.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/GoDominic'
+  
+  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  
+  s.ios.deployment_target = '12.0'
+  s.swift_version = '5.0'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'json-to-swiftui-renderer/Classes/**/*'
+  s.source_files = 'Sources/**/*'
+  s.frameworks = 'UIKit'
 end
